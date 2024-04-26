@@ -1,0 +1,19 @@
+#header{
+    background-color: rgb(220, 220, 220);
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(30, 1fr);
+    font-size: 3rem;
+}
+.menu{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: auto;
+}
+.carrito_compras{
+    grid-column-start: 29;
+    grid-column-end: 31;
+    margin: auto;
+}
